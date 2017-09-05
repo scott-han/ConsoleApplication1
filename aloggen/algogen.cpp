@@ -133,7 +133,8 @@ void f(int v, int k) {
 	}
 }
 void test1() {
-	std::vector<int> v(1000);
+	//
+	  std::vector<int> v(1000);
 	std::generate(v.begin(), v.end(), std::rand);
 	for (int j : v) {
 		f(j, 5);
